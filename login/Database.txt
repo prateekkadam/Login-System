@@ -1,0 +1,14 @@
+CREATE database loginform;
+use loginform;
+
+CREATE table login(Fullname varchar(20),Email varchar(20),Mobile int, Username varchar(20),password varchar(20),Gender varchar(20), DOB varchar(20));
+
+insert into login values('Pratik Kadam','pk@gmail.com',897878777,'Pratik','1234','Male',09-09-2000);
+
+select * from login
+
+create table Admin(Username varchar(20),password varchar(20));
+
+insert into Admin values('root','1234');
+
+select * from Admin
